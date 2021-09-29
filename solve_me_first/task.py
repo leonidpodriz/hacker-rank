@@ -1,5 +1,5 @@
-def solve_me_first(a, b):
-    return a + b
+def solve_me_first(*args: int) -> int:
+    return sum(args)
 
 
 if __name__ == '__main__':
