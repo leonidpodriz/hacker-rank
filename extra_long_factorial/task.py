@@ -9,5 +9,4 @@ def extra_long_factorials(number: int) -> int:
 
 if __name__ == '__main__':
     n = int(input().strip())
-
-    extra_long_factorials(n)
+    print(extra_long_factorials(n))
