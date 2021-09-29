@@ -1,6 +1,6 @@
 from unittest import TestCase
 
-from task import solve_me_first
+from solve_me_first.task import solve_me_first
 
 
 class SolveMeFirstTest(TestCase):
